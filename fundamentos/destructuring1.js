@@ -21,5 +21,6 @@ console.log(sobrenome, bemHumorado)
 const { endereco: { logradouro, numero, cep } } = pessoa
 console.log(logradouro, numero, cep)
 
+// Cuidado ao tentar desestruturar um dado aninho, vc deve ter certeza que o dado esteja setado.
 const { conta: { ag, num } } = pessoa
 console.log(ag, num)
